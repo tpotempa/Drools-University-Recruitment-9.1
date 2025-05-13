@@ -1,0 +1,19 @@
+package rules.simple
+
+import pl.edu.atar.universityrecruitment.Candidate;
+
+// Kwalifikacja olimpijska
+rule "Olympic qualification (two_sets_of_rules_salience_no-loop_ONE_MODIFY)"
+dialect "java"
+agenda-group "two_sets_of_rules_salience_no-loop_ONE_MODIFY"
+salience 200
+no-loop true
+when
+    $uc : Candidate(olympicFinalist == true)
+then
+  	modify($uc) {
+        setExamResult(2 * $uc.getExamResult()),
+        appendLogger("Agenda 'TWO_SETS_OF_RULES_SALIENCE_NO_LOOP_ONE_MODIFY' got focus!"),
+    	appendLogger("Rule 'Olympic bonus' fired!")
+    }
+end

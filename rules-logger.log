@@ -1,0 +1,47 @@
+<object-stream>
+<org.drools.kiesession.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Olympic qualification (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive) [1]</activationId>
+      <rule>Olympic qualification (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@4beeb0e</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Exam Qualification / Informatyka (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive) [1]</activationId>
+      <rule>Exam Qualification / Informatyka (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@4beeb0e</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Olympic qualification (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive) [1]</activationId>
+      <rule>Olympic qualification (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@4beeb0e</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>5</type>
+      <activationId>Exam Qualification / Informatyka (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive) [1]</activationId>
+      <rule>Exam Qualification / Informatyka (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@4beeb0e</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>2</type>
+      <factId>1</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.Candidate@4beeb0e</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Olympic qualification (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive) [1]</activationId>
+      <rule>Olympic qualification (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@4beeb0e</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+  </events>
+</org.drools.kiesession.audit.WorkingMemoryLog>
+</object-stream>

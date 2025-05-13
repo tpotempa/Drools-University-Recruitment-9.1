@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule">
+    <kbase name="basic" packages="rules.basic" default="true">
+        <ksession name="ksession-rules-basic" type="stateful" default="true"/>
+        <ksession name="ksession-rules-basic-stateless" type="stateless"/>
+    </kbase>
+    <kbase name="verysimple" packages="rules.verysimple">
+        <ksession name="ksession-rules-verysimple" type="stateful"/>
+        <ksession name="ksession-rules-verysimple-stateless" type="stateless"/>
+    </kbase>
+    <kbase name="simple" packages="rules.simple">
+        <ksession name="ksession-rules-simple" type="stateful"/>
+    </kbase>
+    <kbase name="upperintermediate" packages="rules.upperintermediate">
+        <ksession name="ksession-rules-upperintermediate" type="stateful"/>
+    </kbase>
+    <kbase name="intermediate" packages="rules.intermediate">
+        <ksession name="ksession-rules-intermediate" type="stateful"/>
+    </kbase>
+    <kbase name="advanced" packages="rules.advanced">
+        <ksession name="ksession-rules-advanced" type="stateful"/>
+    </kbase>
+    <kbase name="expert.nobligatory" packages="rules.expert.noobligatory">
+        <ksession name="ksession-rules-expert-nobligatory" type="stateful"/>
+    </kbase>
+    <kbase name="expert.obligatory.solutiona" packages="rules.expert.obligatory.solutiona">
+        <ksession name="ksession-rules-expert-obligatory-solutiona" type="stateful"/>
+    </kbase>
+    <kbase name="expert.obligatory.solutionb" packages="rules.expert.obligatory.solutionb">
+        <ksession name="ksession-rules-expert-obligatory-solutionb" type="stateful"/>
+    </kbase>
+</kmodule>

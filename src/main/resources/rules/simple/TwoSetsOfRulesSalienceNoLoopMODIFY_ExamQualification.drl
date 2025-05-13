@@ -1,0 +1,57 @@
+package rules.simple
+
+import pl.edu.atar.universityrecruitment.Candidate;
+
+// Informatyka
+rule "Exam Qualification / Informatyka (two_sets_of_rules_salience_no-loop_MODIFY)"
+dialect "java"
+agenda-group "two_sets_of_rules_salience_no-loop_MODIFY"
+salience 100
+no-loop true
+when
+    $uc : Candidate(examResult > 100, fieldOfStudy == "Informatyka", counter < 10)
+then
+  	modify($uc) { 
+		setAdmission(true),
+    	setQualificationType("Exam qualification"),
+        appendLogger("Agenda 'TWO_SETS_OF_RULES_SALIENCE_NO_LOOP_MODIFY' got focus!"),
+    	appendLogger("Rule 'Exam qualification / Informatyka' fired!"),
+		incrementCounter()
+    }    
+end
+
+// Automatyka i robotyka
+rule "Exam Qualification / Automatyka i robotyka (two_sets_of_rules_salience_no-loop_MODIFY)"
+dialect "java"
+agenda-group "two_sets_of_rules_salience_no-loop_MODIFY"
+salience 100
+no-loop true
+when
+    $uc : Candidate(examResult > 60, fieldOfStudy == "Automatyka i robotyka", counter < 10)
+then
+  	modify($uc) { 
+		setAdmission(true),
+    	setQualificationType("Exam qualification"),
+        appendLogger("Agenda 'TWO_SETS_OF_RULES_SALIENCE_NO_LOOP_MODIFY' got focus!"),
+    	appendLogger("Rule 'Exam qualification / Automatyka i robotyka' fired!"),
+		incrementCounter()
+    }
+end
+
+// Elektrotechnika
+rule "Exam Qualification / Elektrotechnika (two_sets_of_rules_salience_no-loop_MODIFY)"
+dialect "java"
+agenda-group "two_sets_of_rules_salience_no-loop_MODIFY"
+salience 100
+no-loop true
+when
+    $uc : Candidate(examResult > 80, fieldOfStudy == "Elektrotechnika", counter < 10)
+then
+  	modify($uc) { 
+		setAdmission(true),
+    	setQualificationType("Exam qualification"),
+        appendLogger("Agenda 'TWO_SETS_OF_RULES_SALIENCE_NO_LOOP_MODIFY' got focus!"),
+    	appendLogger("Rule 'Exam qualification / Elektrotechnika' fired!"),
+		incrementCounter()
+    }
+end
