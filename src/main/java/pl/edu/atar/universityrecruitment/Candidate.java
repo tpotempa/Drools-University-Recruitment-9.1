@@ -160,8 +160,6 @@ public Candidate()
 
    public String getCandidateInformationLogger()
    {
-      String logger = (this.logger.isEmpty()) ? "" : "\n\nRULES FIRED WITH EXECUTION ORDER:\n" + this.logger;
-
       return  "CANDIDATE:" +
               "\nFirst & last name: " + this.firstName + " " + this.lastName +
               "\nField of study: " + this.fieldOfStudy + " (" + this.examResult + " points, OlympicFinalist: " + this.olympicFinalist + ", SchoolType: " + this.schoolType + ")" +
