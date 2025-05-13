@@ -6,6 +6,7 @@ import java.util.List;
 @org.kie.api.definition.type.PropertyReactive
 public class Candidate implements java.io.Serializable
 {
+   private static final long serialVersionUID = 1L;
    private Long id;
 
    private String firstName;
@@ -19,7 +20,7 @@ public class Candidate implements java.io.Serializable
    private Boolean olympicFinalist;
    private String qualificationType = "None";  
    private String logger = "";   
-   private Integer counter = (Integer) 0;
+   private Integer counter = 0;
    
 public Candidate()
    {
@@ -65,8 +66,9 @@ public Candidate()
       this.examResult = examResult;
    }
 
-   public List<ExamSubjectResult> getExamSubjectResult() { return examSubjectResult; }
-
+   public List<ExamSubjectResult> getExamSubjectResult() {
+      return new ArrayList<>(examSubjectResult);
+   }
    public void setExamSubjectResult(List<ExamSubjectResult> examSubjectResult) {
       this.examSubjectResult = examSubjectResult;
    }
@@ -121,10 +123,11 @@ public Candidate()
       this.logger = logger;
    }
 
-   public void appendLogger(String logger)
-   {
-      this.logger += logger + "\n";
-   }   
+   public void appendLogger(String logger) {
+      if (logger != null && !logger.isEmpty()) {
+         this.logger += logger + "\n";
+      }
+   }
 
    public Integer getCounter() {
 	   return counter;
@@ -160,12 +163,15 @@ public Candidate()
 
    public String getCandidateInformationLogger()
    {
+      String reasoningLogger = (this.logger.isEmpty()) ? "\n" : "\n\nRULES FIRED WITH EXECUTION ORDER:\n" + this.logger;
+
       return  "CANDIDATE:" +
               "\nFirst & last name: " + this.firstName + " " + this.lastName +
               "\nField of study: " + this.fieldOfStudy + " (" + this.examResult + " points, OlympicFinalist: " + this.olympicFinalist + ", SchoolType: " + this.schoolType + ")" +
               "\nAdmission: " + this.admission +
               "\nQualification type: " + this.qualificationType +
-              "\nObject reference: " + Integer.toHexString(System.identityHashCode(this));
+              "\nObject reference: " + Integer.toHexString(System.identityHashCode(this)) +
+              reasoningLogger;
    }
 
    public String getReasoningLogger()

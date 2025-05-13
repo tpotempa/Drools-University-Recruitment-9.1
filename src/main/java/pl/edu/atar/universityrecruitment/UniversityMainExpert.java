@@ -48,7 +48,7 @@ public class UniversityMainExpert {
             LOGGER.info("... REASONING ENDED ...\n");
 
             LOGGER.info("Number of facts in WORKING MEMORY (T3): {}\n", kSession.getFactCount());
-            LOGGER.info("Information AFTER reasoning.\n\n{}{}", candidate.getCandidateInformationLogger(), candidate.getReasoningLogger());
+            LOGGER.info("Information AFTER reasoning.\n\n{}", candidate.getCandidateInformationLogger());
 
             // Zwolnienie pamięci
             kSession.dispose();
