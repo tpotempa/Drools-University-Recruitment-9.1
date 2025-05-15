@@ -8,8 +8,8 @@ dialect "java"
 // Reguły bez przypisanej agenda-group są przyporządkowane do domyślnej agendy 'MAIN'!
 // Agenda 'MAIN' jest w procesie wnioskowanie ZAWSZE wywoływana tj. uzyskuje FOCUS.
 // Wywołanie jest niejawne i odbywa się po jawnych wywołaniach agend.
-// Aby wykonać testy automatycznego uruchamianie n/w reguły nie należy jej przypisywać do żadnej agendy (tj. zakomentować wiersz zawierający parametr agenda-group).
-// Aby wyłączyć automatyczne uruchamianie n/w reguły należy ją przypisać do agendy (tj. odkomentować wiersz zawierający parametr agenda-group).
+// Aby wykonać testy automatycznego aktywowania n/w reguły nie należy jej przypisywać do żadnej agendy (tj. zakomentować wiersz zawierający parametr agenda-group).
+// Aby wyłączyć automatyczne aktywowania n/w reguły należy ją przypisać do agendy (tj. odkomentować wiersz zawierający parametr agenda-group).
 agenda-group "do_not_focus_automatically"
 
 when

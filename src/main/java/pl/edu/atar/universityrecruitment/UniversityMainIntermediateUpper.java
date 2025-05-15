@@ -35,7 +35,7 @@ public class UniversityMainIntermediateUpper {
 		// Rezultaty działania silnika wnioskującego są zwracane w oknie konsoli.
 
 		// Uruchamiany przykład
-		Integer example = 3;
+		Integer example = 1;
 
 		switch (example) {
 		case 1:

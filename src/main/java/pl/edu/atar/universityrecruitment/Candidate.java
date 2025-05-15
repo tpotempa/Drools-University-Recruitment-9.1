@@ -15,7 +15,7 @@ public class Candidate implements java.io.Serializable
    private String schoolType;
    private Double examResult;
    private List<ExamSubjectResult> examSubjectResult = new ArrayList<>();
-   private Boolean admission = Boolean.FALSE;  
+   private Boolean admission = Boolean.FALSE;
    private String fieldOfStudy;
    private Boolean olympicFinalist;
    private String qualificationType = "None";  
