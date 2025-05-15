@@ -174,11 +174,6 @@ public Candidate()
               reasoningLogger;
    }
 
-   public String getReasoningLogger()
-   {
-      return (this.logger.isEmpty()) ? "\n" : "\n\nRULES FIRED WITH EXECUTION ORDER:\n" + this.logger;
-   }
-
    public String getCandidateSubjectsInformation()
    {
        StringBuilder information = new StringBuilder("CANDIDATE'S SUBJECTS:\n");

@@ -28,15 +28,15 @@ public class UniversityMainBasic {
         int example = 1;
 
         // Logowanie zebranych informacji
-        int iterator = 1;
+        int counter = 1;
         for (Candidate candidate : uc) {
 
             // Tworzenie bazy wiedzy tj. dodawanie zbioru reguł do pamięci produkcyjnej Production Memory
             KieServices kService = KieServices.Factory.get();
             KieContainer kContainer = kService.getKieClasspathContainer();
-            KieSession kSession = kContainer.newKieSession("ksession-rules-basic");
+            KieSession kSession = kContainer.newKieSession("basic");
 
-            if(iterator == 1)
+            if(counter == 1)
                 LOGGER.info("Knowledge base created.\n\n");
                 //System.out.println("\nKnowledge base created.\n\nREASONINGS AND FACTS ANALYSIS\n");
 
@@ -73,7 +73,7 @@ public class UniversityMainBasic {
             LOGGER.info("REASONING AND ANALYSIS OF CANDIDATE ID = {}", candidate.getId());
             LOGGER.info("Number of facts in Working Memory (Entry Point): {}", kSession.getFactCount());
             kService.getLoggers().newConsoleLogger(kSession);
-            kService.getLoggers().newFileLogger(kSession, "./logs/reasoning_basic_fact_" + iterator);
+            kService.getLoggers().newFileLogger(kSession, "./logs/reasoning_basic_fact_" + counter);
 
             LOGGER.info("Reasoning No 1.");
             kSession.fireAllRules();
@@ -92,7 +92,7 @@ public class UniversityMainBasic {
 
             // Usunięcie sesji oraz zwolnienie pamięci.
             kSession.dispose();
-            iterator++;
+            counter++;
         }
     }
 }

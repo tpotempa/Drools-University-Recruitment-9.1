@@ -1,0 +1,20 @@
+package rules.intermediate.upper
+
+import pl.edu.atar.universityrecruitment.Candidate;
+
+// Kwalifikacja olimpijska
+rule "Olympic qualification (two_sets_of_rules_salience_activation-group_MODIFY)"
+dialect "java"
+agenda-group "two_sets_of_rules_salience_activation-group_MODIFY"
+salience 200
+activation-group "group-1"
+when
+    $uc : Candidate(olympicFinalist == true, counter < 10)
+then
+  	modify($uc) {
+		setAdmission(true),
+        setQualificationType("Olympic qualification."),
+    	appendLogger("Rule 'Olympic qualification' fired!"),
+		incrementCounter()    	
+    }    
+end

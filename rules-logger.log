@@ -4,43 +4,269 @@
   <events>
     <org.drools.kiesession.audit.ActivationLogEvent>
       <type>4</type>
-      <activationId>Olympic qualification (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive) [1]</activationId>
-      <rule>Olympic qualification (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive)</rule>
-      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@4beeb0e</declarations>
+      <activationId>Exam Qualification / Informatyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [1]</activationId>
+      <rule>Exam Qualification / Informatyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@778db7c5</declarations>
       <factHandleIds>1</factHandleIds>
     </org.drools.kiesession.audit.ActivationLogEvent>
     <org.drools.kiesession.audit.ActivationLogEvent>
       <type>4</type>
-      <activationId>Exam Qualification / Informatyka (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive) [1]</activationId>
-      <rule>Exam Qualification / Informatyka (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive)</rule>
-      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@4beeb0e</declarations>
+      <activationId>Exam Qualification / Informatyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [2]</activationId>
+      <rule>Exam Qualification / Informatyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@33364212</declarations>
+      <factHandleIds>2</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Exam Qualification / Automatyka i robotyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [4]</activationId>
+      <rule>Exam Qualification / Automatyka i robotyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@745c2004</declarations>
+      <factHandleIds>4</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [6]</activationId>
+      <rule>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@7fd69dd</declarations>
+      <factHandleIds>6</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [5]</activationId>
+      <rule>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@6da9dc6</declarations>
+      <factHandleIds>5</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [4]</activationId>
+      <rule>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@745c2004</declarations>
+      <factHandleIds>4</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [1]</activationId>
+      <rule>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@778db7c5</declarations>
       <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [4]</activationId>
+      <rule>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@745c2004</declarations>
+      <factHandleIds>4</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [3]</activationId>
+      <rule>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@2216effc</declarations>
+      <factHandleIds>3</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [2]</activationId>
+      <rule>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@33364212</declarations>
+      <factHandleIds>2</factHandleIds>
     </org.drools.kiesession.audit.ActivationLogEvent>
     <org.drools.kiesession.audit.ActivationLogEvent>
       <type>6</type>
-      <activationId>Olympic qualification (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive) [1]</activationId>
-      <rule>Olympic qualification (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive)</rule>
-      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@4beeb0e</declarations>
-      <factHandleIds>1</factHandleIds>
+      <activationId>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [6]</activationId>
+      <rule>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@7fd69dd</declarations>
+      <factHandleIds>6</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>2</type>
+      <factId>6</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.Candidate@7fd69dd</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [6]</activationId>
+      <rule>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@7fd69dd</declarations>
+      <factHandleIds>6</factHandleIds>
     </org.drools.kiesession.audit.ActivationLogEvent>
     <org.drools.kiesession.audit.ActivationLogEvent>
-      <type>5</type>
-      <activationId>Exam Qualification / Informatyka (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive) [1]</activationId>
-      <rule>Exam Qualification / Informatyka (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive)</rule>
-      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@4beeb0e</declarations>
+      <type>6</type>
+      <activationId>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [5]</activationId>
+      <rule>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@6da9dc6</declarations>
+      <factHandleIds>5</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>2</type>
+      <factId>5</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.Candidate@6da9dc6</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [5]</activationId>
+      <rule>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@6da9dc6</declarations>
+      <factHandleIds>5</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Exam Qualification / Elektrotechnika (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [5]</activationId>
+      <rule>Exam Qualification / Elektrotechnika (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@6da9dc6</declarations>
+      <factHandleIds>5</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [4]</activationId>
+      <rule>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@745c2004</declarations>
+      <factHandleIds>4</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>2</type>
+      <factId>4</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.Candidate@745c2004</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [4]</activationId>
+      <rule>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@745c2004</declarations>
+      <factHandleIds>4</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [1]</activationId>
+      <rule>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@778db7c5</declarations>
       <factHandleIds>1</factHandleIds>
     </org.drools.kiesession.audit.ActivationLogEvent>
     <org.drools.kiesession.audit.ObjectLogEvent>
       <type>2</type>
       <factId>1</factId>
-      <objectToString>pl.edu.atar.universityrecruitment.Candidate@4beeb0e</objectToString>
+      <objectToString>pl.edu.atar.universityrecruitment.Candidate@778db7c5</objectToString>
     </org.drools.kiesession.audit.ObjectLogEvent>
     <org.drools.kiesession.audit.ActivationLogEvent>
       <type>7</type>
-      <activationId>Olympic qualification (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive) [1]</activationId>
-      <rule>Olympic qualification (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive)</rule>
-      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@4beeb0e</declarations>
+      <activationId>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [1]</activationId>
+      <rule>Olympic qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@778db7c5</declarations>
       <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [4]</activationId>
+      <rule>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@745c2004</declarations>
+      <factHandleIds>4</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>2</type>
+      <factId>4</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.Candidate@745c2004</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [4]</activationId>
+      <rule>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@745c2004</declarations>
+      <factHandleIds>4</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [3]</activationId>
+      <rule>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@2216effc</declarations>
+      <factHandleIds>3</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>2</type>
+      <factId>3</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.Candidate@2216effc</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [3]</activationId>
+      <rule>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@2216effc</declarations>
+      <factHandleIds>3</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [2]</activationId>
+      <rule>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@33364212</declarations>
+      <factHandleIds>2</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>2</type>
+      <factId>2</factId>
+      <objectToString>pl.edu.atar.universityrecruitment.Candidate@33364212</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [2]</activationId>
+      <rule>Women qualification (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@33364212</declarations>
+      <factHandleIds>2</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Exam Qualification / Informatyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [1]</activationId>
+      <rule>Exam Qualification / Informatyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@778db7c5</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Exam Qualification / Informatyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [1]</activationId>
+      <rule>Exam Qualification / Informatyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@778db7c5</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Exam Qualification / Informatyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [2]</activationId>
+      <rule>Exam Qualification / Informatyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@33364212</declarations>
+      <factHandleIds>2</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Exam Qualification / Informatyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [2]</activationId>
+      <rule>Exam Qualification / Informatyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@33364212</declarations>
+      <factHandleIds>2</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Exam Qualification / Automatyka i robotyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [4]</activationId>
+      <rule>Exam Qualification / Automatyka i robotyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@745c2004</declarations>
+      <factHandleIds>4</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Exam Qualification / Automatyka i robotyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [4]</activationId>
+      <rule>Exam Qualification / Automatyka i robotyka (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@745c2004</declarations>
+      <factHandleIds>4</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Exam Qualification / Elektrotechnika (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [5]</activationId>
+      <rule>Exam Qualification / Elektrotechnika (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@6da9dc6</declarations>
+      <factHandleIds>5</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Exam Qualification / Elektrotechnika (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY) [5]</activationId>
+      <rule>Exam Qualification / Elektrotechnika (three_sets_of_rules_salience_lock-on-active_bonus_MODIFY)</rule>
+      <declarations>$uc=pl.edu.atar.universityrecruitment.Candidate@6da9dc6</declarations>
+      <factHandleIds>5</factHandleIds>
     </org.drools.kiesession.audit.ActivationLogEvent>
   </events>
 </org.drools.kiesession.audit.WorkingMemoryLog>

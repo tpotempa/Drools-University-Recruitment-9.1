@@ -1,0 +1,44 @@
+package rules.elementary
+
+import pl.edu.atar.universityrecruitment.Candidate;
+
+// Informatyka
+rule "Exam Qualification / Informatyka (one_set_of_rules)"
+dialect "java"
+agenda-group "one_set_of_rules"
+
+when
+    $uc : Candidate(examResult > 100, fieldOfStudy == "Informatyka")
+then
+    $uc.setAdmission(Boolean.TRUE);
+    $uc.setQualificationType("Exam qualification");
+    $uc.appendLogger("Agenda 'ONE_SET_OF_RULES' got focus!");
+    $uc.appendLogger("Rule 'Exam qualification / Informatyka' fired!");
+end
+
+// Automatyka i robotyka
+rule "Exam Qualification / Automatyka i robotyka (one_set_of_rules)"
+dialect "java"
+agenda-group "one_set_of_rules"
+
+when
+    $uc : Candidate(examResult > 60, fieldOfStudy == "Automatyka i robotyka")
+then
+    $uc.setAdmission(Boolean.TRUE);
+    $uc.setQualificationType("Exam qualification");
+    $uc.appendLogger("Agenda 'ONE_SET_OF_RULES' got focus!");
+    $uc.appendLogger("Rule 'Exam qualification / Automatyka i robotyka' fired!");
+end
+
+// Elektrotechnika
+rule "Exam Qualification / Elektrotechnika (one_set_of_rules)"
+dialect "java"
+agenda-group "one_set_of_rules"
+when
+    $uc : Candidate(examResult > 80, fieldOfStudy == "Elektrotechnika")
+then
+    $uc.setAdmission(Boolean.TRUE);
+    $uc.setQualificationType("Exam qualification");
+    $uc.appendLogger("Agenda 'ONE_SET_OF_RULES' got focus!");
+    $uc.appendLogger("Rule 'Exam qualification / Elektrotechnika' fired!");
+end

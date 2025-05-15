@@ -1,0 +1,54 @@
+package rules.masterful
+
+import pl.edu.atar.universityrecruitment.Candidate;
+
+// Informatyka
+rule "Exam Qualification / Informatyka (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive)"
+dialect "java"
+agenda-group "two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive"
+salience 100
+activation-group "group-1"
+
+when
+    $uc : Candidate(examResult > 100, fieldOfStudy == "Informatyka") @Watch(!*)
+then
+  	modify($uc) { 
+		setAdmission(true),
+    	setQualificationType("Exam qualification"),
+    	appendLogger("Rule 'Exam qualification / Informatyka' fired!")
+    }    
+end
+
+// Automatyka i robotyka
+rule "Exam Qualification / Automatyka i robotyka (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive)"
+dialect "java"
+agenda-group "two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive"
+salience 100
+activation-group "group-1"
+
+when
+    $uc : Candidate(examResult > 60, fieldOfStudy == "Automatyka i robotyka") @Watch(!*)
+then
+  	modify($uc) {
+		setAdmission(true),
+    	setQualificationType("Exam qualification"),
+    	appendLogger("Rule 'Exam qualification / Automatyka i robotyka' fired!")
+    }    
+end
+
+// Elektrotechnika
+rule "Exam Qualification / Elektrotechnika (two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive)"
+dialect "java"
+agenda-group "two_sets_of_rules_salience_activation-group_MODIFY_PropertyReactive"
+salience 100
+activation-group "group-1"
+
+when
+    $uc : Candidate(examResult > 80, fieldOfStudy == "Elektrotechnika") @Watch(!*)
+then
+  	modify($uc) {
+		setAdmission(true),
+    	setQualificationType("Exam qualification"),
+    	appendLogger("Rule 'Exam qualification / Elektrotechnika' fired!")
+    }    
+end

@@ -28,12 +28,12 @@ public class UniversityMainBasicStateless {
 
         // Logowanie zebranych informacji
         int counter = 1;
-        for (Candidate fact : uc) {
+        for (Candidate candidate : uc) {
 
             // Tworzenie bazy wiedzy tj. dodawanie zbioru reguł do pamięci produkcyjnej Production Memory
 		    KieServices kService = KieServices.Factory.get();
 		    KieContainer kContainer = kService.getKieClasspathContainer();
-		    StatelessKieSession kSession = kContainer.newStatelessKieSession("ksession-rules-basic-stateless");
+		    StatelessKieSession kSession = kContainer.newStatelessKieSession("basic-stateless");
 
             if(counter == 1) System.out.println("\n\nSTATELESS REASONINGS AND FACTS ANALYSIS\n");
 
@@ -70,9 +70,9 @@ public class UniversityMainBasicStateless {
             kService.getLoggers().newFileLogger(kSession, "./logs/reasoning_basic_stateless_fact_" + counter);
 
             // Wnioskowanie z użyciem przekazanego faktu
-            kSession.execute(fact);
+            kSession.execute(candidate);
 
-            LOGGER.info(fact.getCandidateInformationLogger());
+            LOGGER.info("Information AFTER reasoning (below):\n\n{}\n", candidate.getCandidateInformationLogger());
 
             counter++;
         }
