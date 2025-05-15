@@ -24,7 +24,7 @@ public class UniversityMainElementary {
         // Rezultaty działania silnika wnioskującego są zwracane w oknie konsoli oraz zapisywane w plikach w katalogu logs.
 
         // Uruchamiany przykład
-        int example = 2;
+        int example = 1;
 
         // Logowanie zebranych informacji
         int counter = 1;
